@@ -36,21 +36,22 @@
 		<label for="name">Full Name<span class="required">*</span></label>
 		<input id="name" type="text" autocomplete="name" aria-required="true"></input>
 
-		<label for ="my-email">Email<span class="required">*</span></label>
-		<input id="my-email" type="text" autocomplete="name"aria-required="true"></input>
-		<label for ="my-phone">Phone<span class="required">*</span></label><input id="my-phone" type="text" autocomplete="name"aria-required="true"></input>
+		<label for ="email">Email<span class="required">*</span></label>
+		<input id="email" type="text" autocomplete="name"aria-required="true"></input>
+		<label for ="phone">Phone<span class="required">*</span></label><input id="phone" type="text" autocomplete="name"aria-required="true"></input>
 		
 		<fieldset>
 			<legend>Preferred Contact Method</legend>
-			<input id="my-phone" type="radio" name="phone" value="number">
+			<input id="phone" type="radio" name="phone" value="number">
+
 			<label for="pref-phone">Phone</label>
-			<input id="my-email" type="radio" name="email" value="info">
+			<input id="pref-email" type="radio" name="email" value="info">
 			<label for="pref-email">Email</label>
 		</fieldset>
 		
-		<label for="my-state">State</label>
+		<label for="state">State</label>
 			<div id="arrow">
-				<select name="my-state" id="my-state">
+				<select name="state" id="state">
 				<option value="">Choose Your State</option>
 				<option value="al">AL</option>
 				<option value="ak">AK</option>
@@ -105,8 +106,8 @@
 				<option value="wy">WY</option>
 			</select>
 			</div>
-		<label for="my-message">Message</label>
-		<textarea name="my-message" id="my-message" autocomplete="message"></textarea>
+		<label for="comment">Comments</label>
+		<textarea name="comment" id="comment" autocomplete="message"></textarea>
 		<input type="submit" name="my-submit" id="my-submit" value="Submit"></input>
 	</form>
 
