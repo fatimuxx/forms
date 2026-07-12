@@ -1,6 +1,8 @@
 ---
 layout: default
-title: forms
+title: Form Activity
 ---
 
-# forms
+# Form Activity
+
+This site contains the GIT414 form activity page for the `forms` project.
